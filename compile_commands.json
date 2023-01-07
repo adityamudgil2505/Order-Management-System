@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/madhur/github/Order-Management-System/build_Ninja/Debug_GCC 12.1.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++-12 -g -D_GLIBCXX_DEBUG_PEDANTIC -Wall -Wextra -fsanitize=address,undefined -fno-omit-frame-pointer -Wpedantic -std=gnu++20 -o CMakeFiles/oms.dir/main.cpp.o -c /home/madhur/github/Order-Management-System/main.cpp",
+  "file": "/home/madhur/github/Order-Management-System/main.cpp"
+},
+{
+  "directory": "/home/madhur/github/Order-Management-System/build_Ninja/Debug_GCC 12.1.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++-12 -g -D_GLIBCXX_DEBUG_PEDANTIC -Wall -Wextra -fsanitize=address,undefined -fno-omit-frame-pointer -Wpedantic -std=gnu++20 -o CMakeFiles/oms.dir/order_management_system.cpp.o -c /home/madhur/github/Order-Management-System/order_management_system.cpp",
+  "file": "/home/madhur/github/Order-Management-System/order_management_system.cpp"
+},
+{
+  "directory": "/home/madhur/github/Order-Management-System/build_Ninja/Debug_GCC 12.1.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++-12 -g -D_GLIBCXX_DEBUG_PEDANTIC -Wall -Wextra -fsanitize=address,undefined -fno-omit-frame-pointer -Wpedantic -std=gnu++20 -o CMakeFiles/oms.dir/order_queue.cpp.o -c /home/madhur/github/Order-Management-System/order_queue.cpp",
+  "file": "/home/madhur/github/Order-Management-System/order_queue.cpp"
+},
+{
+  "directory": "/home/madhur/github/Order-Management-System/build_Ninja/Debug_GCC 12.1.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++-12 -g -D_GLIBCXX_DEBUG_PEDANTIC -Wall -Wextra -fsanitize=address,undefined -fno-omit-frame-pointer -Wpedantic -std=gnu++20 -o CMakeFiles/oms.dir/order_request.cpp.o -c /home/madhur/github/Order-Management-System/order_request.cpp",
+  "file": "/home/madhur/github/Order-Management-System/order_request.cpp"
+},
+{
+  "directory": "/home/madhur/github/Order-Management-System/build_Ninja/Debug_GCC 12.1.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++-12 -g -D_GLIBCXX_DEBUG_PEDANTIC -Wall -Wextra -fsanitize=address,undefined -fno-omit-frame-pointer -Wpedantic -std=gnu++20 -o CMakeFiles/oms.dir/order_response.cpp.o -c /home/madhur/github/Order-Management-System/order_response.cpp",
+  "file": "/home/madhur/github/Order-Management-System/order_response.cpp"
+},
+{
+  "directory": "/home/madhur/github/Order-Management-System/build_Ninja/Debug_GCC 12.1.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++-12 -g -D_GLIBCXX_DEBUG_PEDANTIC -Wall -Wextra -fsanitize=address,undefined -fno-omit-frame-pointer -Wpedantic -std=gnu++20 -o CMakeFiles/oms.dir/trading_time_period.cpp.o -c /home/madhur/github/Order-Management-System/trading_time_period.cpp",
+  "file": "/home/madhur/github/Order-Management-System/trading_time_period.cpp"
+}
+]

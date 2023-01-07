@@ -1,0 +1,3 @@
+build_Ninja/*
+.vscode/*
+.cache/*
