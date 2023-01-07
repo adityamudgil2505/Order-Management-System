@@ -1,0 +1,1 @@
+#include "trading_time_period.hpp"
