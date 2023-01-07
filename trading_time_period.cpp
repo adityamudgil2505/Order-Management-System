@@ -1,1 +1,1 @@
-#include"trading_time_period.hpp"
+#include "trading_time_period.hpp"
