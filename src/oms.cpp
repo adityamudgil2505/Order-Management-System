@@ -7,7 +7,7 @@ void OrderManagementSystem::onData(OrderRequest &&request) {
 
   auto [it, inserted] = m_open_orders.try_emplace(
       request.m_orderId,
-      std::make_shared<Order>(OrderState::Resting{}, request.m_side, false,
+      std::make_shared<Order>(OrderState::Resting{}, request.m_side,
                               request.m_symbolId, request.m_price,
                               request.m_qty, request.m_orderId));
   if (std::holds_alternative<OrderState::RequestPending>(it->second->m_state)) {

@@ -1,6 +1,7 @@
 #pragma once
 
 #include <chrono>
+#include <concepts>
 #include <cstdint>
 #include <string>
 #include <variant>
@@ -65,7 +66,6 @@ struct Order {
       m_state;
 
   char m_side; // possible values 'B' or 'S'
-  bool m_cancel_requested;
 
   int m_symbolId;
   double m_price;
