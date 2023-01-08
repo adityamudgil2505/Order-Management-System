@@ -6,15 +6,6 @@
 #include <string>
 #include <variant>
 
-struct Logon {
-  std::string username;
-  std::string password;
-};
-
-struct Logout {
-  std::string username;
-};
-
 /////////////////////// Request / Reponse ///////////////////////////
 enum class RequestType { Unknown = 0, New = 1, Modify = 2, Cancel = 3 };
 
