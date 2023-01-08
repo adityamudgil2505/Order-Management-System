@@ -10,15 +10,13 @@ void OrderManagementSystem::onData(OrderRequest &&request) {
       std::make_shared<Order>(OrderState::Resting{}, request.m_side,
                               request.m_symbolId, request.m_price,
                               request.m_qty, request.m_orderId));
+
   if (std::holds_alternative<OrderState::RequestPending>(it->second->m_state)) {
     throw std::logic_error("Request is pending");
   } else if (request.m_req_type == RequestType::Cancel) {
 
-    m_req_sent_at[request.m_orderId] = Clock::now();
-    std::erase_if(m_queued_orders,
-                  [id = request.m_orderId](const std::weak_ptr<Order> &o) {
-                    return o.expired() || o.lock()->m_id == id;
-                  });
+    // ASSUME: cancels are not throttled and cancel will not be failed by the
+    //         exchange. Also assume cancel will be requested only once
     send(*it->second, RequestType::Cancel);
     m_open_orders.erase(request.m_orderId);
 
